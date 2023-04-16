@@ -1,4 +1,5 @@
-Black-List
+#Black-List
+
 Black-List is a professionally designed Discord bot implemented in Java, offering robust functionality for efficient management of string blacklists, facilitating seamless server ban enforcement. Developed using Maven and the Discord API, this feature-rich bot provides a diverse range of commands, including but not limited to adding IDs, searching and displaying the blacklist, comparing with other lists, updating a temporary list, removing IDs, clearing the blacklist, and providing a help command for user-friendly navigation.
 
 With Black-List, server administrators can effortlessly add IDs to the blacklist using simple commands, conduct targeted searches for specific IDs within the blacklist, and conveniently display the current list of blacklisted values. The bot also enables efficient cross-referencing of multiple blacklists through its capability to compare with other lists. Additionally, administrators can seamlessly update the temporary list and access it as needed.
