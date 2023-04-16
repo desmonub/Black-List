@@ -244,8 +244,8 @@ public class bot extends ListenerAdapter {
     public void compareBlacklistTolist(MessageReceivedEvent event) {
         try {
             // Read the content of blacklist.txt and list.txt
-            List<String> blacklist = Files.readAllLines(Paths.get("D:\\Programs\\sotBlacklist\\src\\main\\resources\\blacklist.txt"));
-            List<String> whitelist = Files.readAllLines(Paths.get("D:\\Programs\\sotBlacklist\\src\\main\\resources\\list.txt"));
+            List<String> blacklist = Files.readAllLines(Paths.get("blacklist.txt file location"));
+            List<String> whitelist = Files.readAllLines(Paths.get("list.txt file location"));
 
             // Create a Set to store similar IDs
             Set<String> similarIds = new HashSet<>();
@@ -273,7 +273,7 @@ public class bot extends ListenerAdapter {
     // Method to save the updated list to the file
     private void savelist() {
         try {
-            File file = new File("D:\\Programs\\sotBlacklist\\src\\main\\resources\\list.txt");
+            File file = new File("list.txt file location");
             FileWriter writer = new FileWriter(file);
             for (String uid : list) {
                 writer.write(uid + "\n");
@@ -288,7 +288,7 @@ public class bot extends ListenerAdapter {
     private List<String> loadlist() {
         List<String> list = new ArrayList<>();
         try {
-            File file = new File("D:\\Programs\\sotBlacklist\\src\\main\\resources\\list.txt");
+            File file = new File("list.txt file location");
             FileReader reader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(reader);
             String line;
@@ -306,7 +306,7 @@ public class bot extends ListenerAdapter {
 
     private void saveBlacklistToFile() {
         try {
-            File file = new File("D:\\Programs\\sotBlacklist\\src\\main\\resources\\blacklist.txt");
+            File file = new File("blacklist.txt file location");
             FileWriter writer = new FileWriter(file);
             for (String id : blacklist) {
                 writer.write(id + "\n");
@@ -320,7 +320,7 @@ public class bot extends ListenerAdapter {
     private List<String> loadBlacklistFromFile() {
         List<String> blacklist = new ArrayList<>();
         try {
-            File file = new File("D:\\Programs\\sotBlacklist\\src\\main\\resources\\blacklist.txt");
+            File file = new File(blacklist.txt file location");
             FileReader reader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(reader);
             String line;
