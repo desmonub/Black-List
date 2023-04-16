@@ -7,7 +7,7 @@ We are committed to providing security updates for the following versions of our
 | ------- | ------------------ |
 | 1.0     | :white_check_mark: |
 
-Please note that version 5.0.x is no longer supported and will not receive security updates. We strongly recommend upgrading to a supported version to ensure your project remains secure.
+Please note that version beta 0.0.1 is no longer supported and will not receive security updates. We strongly recommend upgrading to a supported version to ensure your project remains secure.
 
 ## Reporting a Vulnerability
 If you discover a security vulnerability in our project, please report it to us as soon as possible. You can report vulnerabilities by contacting us with the details of the vulnerability, including steps to reproduce it and any relevant information.
